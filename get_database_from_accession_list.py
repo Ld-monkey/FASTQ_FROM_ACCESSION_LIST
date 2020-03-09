@@ -47,9 +47,6 @@ def create_fastq_from_accession_list(basename_output_fastq, id_accession_list):
                 # Report of fasta.
                 report = handle.read()
 
-                # Display report.
-                print(report)
-
                 # Write the fasta file.
                 fasta_file.write(report)
 
