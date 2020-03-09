@@ -8,7 +8,7 @@ python get_database_from_accession_list.py -id only_five_sequences.seq -o result
 * The -id parameter is the path to the accession list file.
 * The -o parameter is the name of the output file.
 
-# Example of accesssion list (sequence.seq) from ncbi data
+## Example of accesssion list (sequence.seq) from NCBI database
 For example the first 5 ids of only_five_sequences.seq are :
 ```bash
 NR_165790.1
